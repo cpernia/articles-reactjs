@@ -1,0 +1,27 @@
+.App {
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'body-font';
+  height: 100%;
+}
+/*!*COVER DIV*!*/
+#cover {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/*!*CONTENT WRAPPER*!*/
+#content-wrapper {
+  height: calc(100% - 52px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: url(../../assets/img/articles-background.png); /* For browsers that do not support gradients */
+  background-repeat: no-repeat;
+  background-position: 95% 90%;
+  padding: 30px;
+}
